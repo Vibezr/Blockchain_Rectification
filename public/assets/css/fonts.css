@@ -1,0 +1,46 @@
+
+@font-face {
+font-family: 'Montserrat-Bold';
+src: url('Montserrat-Bold.eot');
+src: url('Montserrat-Boldd41d.eot') format('embedded-opentype'),
+        url('Montserrat-Bold.woff') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.ttf') format('truetype'),
+        url('Montserrat-Bold.svg') format('svg'),
+        url('Montserrat-Bold.otf') format('otf');
+}
+  
+@font-face {
+font-family: 'Poppins-Bold';
+src: url('Poppins-Bold.eot');
+src: url('Poppins-Boldd41d.eot') format('embedded-opentype'),
+        url('Poppins-Bold.woff') format('woff2'),
+        url('Poppins-Bold.woff') format('woff'),
+        url('Poppins-Bold.ttf') format('truetype'),
+        url('Poppins-Bold.svg') format('svg'),
+        url('Poppins-Bold.otf') format('otf');
+}
+  
+@font-face {
+font-family: 'Poppins-Medium';
+src: url('Poppins-Medium.eot');
+src: url('Poppins-Mediumd41d.eot') format('embedded-opentype'),
+        url('Poppins-Medium.woff') format('woff2'),
+        url('Poppins-Medium.woff') format('woff'),
+        url('Poppins-Medium.ttf') format('truetype'),
+        url('Poppins-Medium.svg') format('svg'),
+        url('Poppins-Medium.otf') format('otf');
+}
+
+@font-face {
+font-family: 'Poppins-Regular';
+src: url('Poppins-Regular.eot');
+src: url('Poppins-Regulard41d.eot') format('embedded-opentype'),
+        url('Poppins-Regular.otf') format('otf'),
+        url('Poppins-Regular.svg') format('svg'),
+        url('Poppins-Regular.ttf') format('truetype'),
+        url('Poppins-Regular.woff') format('woff'),
+        url('Poppins-Regular.woff') format('woff2');
+}
+  
+  

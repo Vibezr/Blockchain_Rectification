@@ -1,0 +1,15 @@
+#trade_registration .help-block{
+    width: 100%;
+}
+#rc-imageselect, .g-recaptcha {
+    transform:scale(0.77);
+    transform-origin:0 0;
+    margin-bottom: -20px;
+}
+@media (min-width:575px) {
+    #rc-imageselect, .g-recaptcha {
+        transform:scale(1);
+        transform-origin:0 0;
+        margin-bottom: 0px;
+    }   
+}

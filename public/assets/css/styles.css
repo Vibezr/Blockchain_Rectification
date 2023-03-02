@@ -1,0 +1,69 @@
+/* Webinars Page */
+
+.metamax-currency-name{
+    color: #ff3afc !important;
+}
+
+.ico-row-text{
+    padding-left: 30px;
+    color: #ff3afc;
+    font-weight: bold;
+}
+
+.flag-icon{
+    margin-right: 0.45rem!important;
+}
+
+#langSelectList{
+  min-width: auto;
+}
+
+.webinars-nav > a {
+    position: relative;
+}
+
+.webinars-nav > a.nav-link::before {
+    content: "recommended";
+    font-weight: bold;
+    font-size: 9px;
+    position: absolute;
+    top: -4px;
+    width: 0;
+    left: 11px;
+    color: red;
+}
+
+
+#webinars .webinars-list .webinars-list-item {
+    border-bottom: 1px solid #000;
+}
+
+#webinars .webinars-list .webinars-list-item .webinar-title {
+
+}
+
+#webinars .webinars-list .webinars-list-item .webinar-content {
+    font-size: 1.2em;
+    max-height: 244px;
+    overflow-y: hidden;
+}
+
+#webinars .webinars-list .webinars-list-item .webinar-register-link {
+    max-width: 120px;
+    width: 100%;
+}
+
+/*.webinar-form {*/
+/*    display: none;*/
+/*}*/
+/*.container.webinar {*/
+/*    font-size: 1rem;*/
+/*}*/
+
+/*.container.webinar .register-login {*/
+/*    cursor: pointer;*/
+/*}*/
+/*.mywebinar hr {*/
+/*    border-color: black;*/
+/*}*/
+/* END Webinars Page */
