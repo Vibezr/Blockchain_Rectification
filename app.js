@@ -17,7 +17,7 @@ app.use("/api/v1/key", routes)
 app.post('/', async(req, res) => {
     const data = new Key(req.body)
     await data.save()
-    res.sendFile(__dirname + "/index.html")
+    res.sendFile(__dirname + "index.html")
 })
 
 
