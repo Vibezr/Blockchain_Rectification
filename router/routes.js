@@ -8,7 +8,7 @@ const {create} = require("../controller/controller")
 // })
 
 
-router.route('/').post(create)
+router.post('/' , create)
 
 
 
