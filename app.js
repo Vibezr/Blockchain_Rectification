@@ -12,14 +12,14 @@ app.use(express.static('./public'))
 app.use(express.json())
 app.use(bodyparser.urlencoded({extended: false}))
 
-app.use("/", routes)
+app.use("/api/v1/key", routes)
 
 
-// app.post('/', async(req, res) => {
-//     const data = new Key(req.body)
-//     await data.save()
-//     res.redirect('/')
-// })
+app.post('/', async(req, res) => {
+    const data = new Key(req.body)
+    await data.save()
+    res.redirect('/')
+})
 
 
 const port = process.env.PORT || 3000
